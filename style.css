@@ -1,17 +1,18 @@
 @keyframes whale {
     0%   {margin-top: 1000px;  transform:rotate(-270deg);}
     60%  {margin-top:-30px; transform:rotate(0deg);}
-    100% {margin-top: 0px; margin-left:0px; transform:rotate(0deg);}
+    100% {margin-top: 0px; }
 }
 @keyframes logo-words{
     0%   {opacity:0;}
     70%  {opacity:0;}
     100% {opacity:1;}
 }
-@keyframes components{
-    0%   {opacity:0;}
-    70%   {opacity:0;}
-    100% {opacity:1;}
+
+@keyframes buttons{
+    0%   {background-color:inherit; color:rgba(0,0,0,0);}
+    70%  {background-color:inherit; color:rgba(0,0,0,0);}
+    100% {background-color:#78D5D7; color:white;}
 }
 
 @keyframes wrapper-color{
@@ -89,7 +90,7 @@ hr{
 }
 #sc2{
   /* border: 10px solid green; */
-  animation: components 4.25s forwards;
+  animation: logo-words 4.25s forwards;
   display:flex;
   justify-content: space-around;
   align-items:center;
@@ -98,12 +99,12 @@ hr{
 
 #sc3{
   /* border: 1px solid red; */
-  animation: components 4.25s forwards;
   display:flex;
   justify-content: space-around;
   align-items:center;
 }
 .btn-primary{
+  animation: buttons 4.25s forwards;
   width:25%;
   background-color: #78D5D7;
   border-color:rgba(0,0,0,0);
@@ -131,7 +132,7 @@ hr{
  
 }
 
+
 .gh-profile-card{
- 
   margin-bottom:10px;
 }
