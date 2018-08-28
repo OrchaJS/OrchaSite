@@ -1,0 +1,109 @@
+.sub-container{
+  height:100px;
+  width:100%;
+  margin:10px 10px;
+}
+
+body{
+  background-color:#016FB9;
+
+}
+h1{
+  font-family: 'Maven Pro', sans-serif;
+}
+#logo{
+  max-height:60%;
+  max-width:100%;
+}
+.pic-link{
+  max-width: 50%;
+  max-height:100px;
+}
+
+#github-logo{
+ max-height:100px;
+}
+#npm-logo{
+  max-height:100px;
+  filter:grayscale(100%);
+}
+#npm-logo:hover{
+  transition: filter .3s;
+  filter:grayscale(0%);
+  cursor:pointer;
+
+}
+
+#github-logo:hover{
+  transition:filter .3s;
+  filter:invert(50%) ;
+  cursor:pointer;
+}
+#wrapper{
+  margin-top:60px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  background-color: #22AED1;
+  border-radius:25px;
+  max-width:60%;
+}
+
+#sc1{
+  /* border: 1px solid blue; */
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  height:45vh;
+}
+hr{
+  border:1px solid rgba(0,0,0,.2);
+  width:70%;
+}
+#sc2{
+  /* border: 10px solid green; */
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  width:70%;
+}
+
+#sc3{
+  /* border: 1px solid red; */
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.btn-primary{
+  width:25%;
+  background-color: #78D5D7;
+  border-color:rgba(0,0,0,0);
+  transition:.3s all;
+}
+.btn-primary:hover{
+  background-color:rgba(0,0,0,.5);
+  border-color:rgba(0,0,0,0)
+
+}
+.modal-content{
+  margin-top:200px;
+}
+#git-cards{
+  width:600px;
+  margin-top:100px;
+  margin-left:-25px;
+}
+#github-cards{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+
+.gh-profile-card{
+ 
+  margin-bottom:10px;
+}
