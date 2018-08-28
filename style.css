@@ -1,9 +1,22 @@
+@keyframes whale {
+    0%   {margin-top: 1000px;}
+    100% {margin-top: 0px;}
+}
+@keyframes logo-words{
+    0%   {opacity:0;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+}
+
 .sub-container{
   height:100px;
   width:100%;
   margin:10px 10px;
 }
 
+#logo-words{
+  animation: logo-words 4.25s forwards;
+}
 body{
   background-color:#016FB9;
 
@@ -14,6 +27,7 @@ h1{
 #logo{
   max-height:60%;
   max-width:100%;
+  animation: whale 2.5s forwards;
 }
 .pic-link{
   max-width: 50%;
