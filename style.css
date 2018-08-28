@@ -112,7 +112,10 @@ hr{
 }
 .btn-primary:hover{
   background-color:rgba(0,0,0,.5);
-  border-color:rgba(0,0,0,0)
+  border-color:#016FB9;
+  border-radius:50px;
+  border-width: 2.5px;
+
 
 }
 .modal-content{
